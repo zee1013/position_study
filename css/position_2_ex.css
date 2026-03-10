@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contents{
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    position: relative;
+    background: url(../images/image.jpg) no-repeat;
+    background-size: cover;
+}
+#contents p{
+    font-size: 30px;
+    font-weight: bold;
+    color: skyblue;
+}
+.txt1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.txt2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.txt3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.txt4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.txt5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}

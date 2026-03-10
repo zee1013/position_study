@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 6000px;
+}
+/* 공통 영역 */
+p{
+    width: 500px;
+    height: 200px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    line-height: 2;
+}
+#static{
+    /* static은 문서의 흐름에 맞춰 배치함 - 기본 값 */
+    position: static;
+}
+#relative-1{
+    /* 공중에 뜨지않고 위치 값을 지정할 수 있음 */
+    /* 위치 값을 지정할 수 있는 것을 빼면 static과 같음 */
+    position: relative;
+}
+#relative-2{
+    position: relative;
+    top: 0;
+    left: 400px;
+}
+#fixed{
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+}
